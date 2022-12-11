@@ -1,5 +1,9 @@
 console.log('tabela da copa')
 
+// funcao inputs
+
+
+
 let tabelaJogos = document.querySelector('.tabelaJogos')
 //console.log(tabelaJogos)
 
@@ -20,12 +24,12 @@ let tabelaJogos = document.querySelector('.tabelaJogos')
     <td class = 'centralizar'>
       <img class = 'imagemP'src='./images/bandeiras/${jogo.mandante}' alt = ''/>
       <input  type = 'number' min = '0' max = '15' class = 'gols'>
-         ${jogo.gols_mandante}
+         
       </input> 
       <span class = 'partida'>${jogo.partida}</span> 
    
       <input type = 'number' min = '0' max = '15' class = 'gols'>
-         ${jogo.gols_visitante}
+         
       </input> 
       <img class = 'imagemP'src='./images/bandeiras/${jogo.visitante}' alt = ''/>
     </td>
